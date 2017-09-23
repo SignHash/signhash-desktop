@@ -1,0 +1,28 @@
+{
+  "name": "signhash-cli",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "pkg": "^4.2.4",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "test": "tslint src/*.ts",
+    "start": "ts-node index.ts",
+    "build": "tsc && pkg -t node8.3 build/app.js --output dist/signhash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SignHash/signhash-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SignHash/signhash-cli/issues"
+  },
+  "homepage": "https://github.com/SignHash/signhash-cli#readme"
+}
